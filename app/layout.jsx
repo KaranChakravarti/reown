@@ -9,8 +9,9 @@ const outfit = Outfit({ subsets: ["latin"], weight: ["400", "500", "600"] });
 export const metadata = {
     title: "ReOwn. - Sell & Purchase",
     description: "ReOwn. - Sell & Purchase",
-
-    
+    verification: {
+        google: "lSKIj8HaiXpuFMay5E1Z_GCQeEppH92SNtTMfx3VLvA",
+    },
 };
 
 export default function RootLayout({ children }) {
